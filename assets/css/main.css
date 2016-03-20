@@ -57,6 +57,16 @@
 
 /* Grid */
 
+.color-overlay {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0,0,0,.7);
+		z-index: 99;
+}
+
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
@@ -3884,7 +3894,7 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/intro.jpeg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
