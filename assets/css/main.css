@@ -3927,3 +3927,11 @@
 			}
 
 		}
+
+		#id123-thankyou iframe {
+			color: #ffffff;
+		}
+
+		label iframe {
+			color: #ffffff !important;
+			}
